@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ alet("ok");
 var app = {
     // Application Constructor
     initialize: function() {
@@ -27,7 +28,7 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-	         alet("ok");
+	        
 	    /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
