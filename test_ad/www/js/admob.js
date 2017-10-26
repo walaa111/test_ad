@@ -1,3 +1,4 @@
+alert("yes");
 var admobid={}
   if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
