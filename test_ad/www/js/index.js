@@ -31,14 +31,7 @@ var app = {
 	admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");
 	admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
 
-	var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
-        inAppBrowserbRef = cordova.InAppBrowser.open('https://www.ovplatform.tk/el5rog/www/', '_self', 'location=no,toolbar=no');
-        /*inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
-        inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
-        inAppBrowserbRef.addEventListener('loaderror', inAppBrowserbLoadError);
-        inAppBrowserbRef.addEventListener('exit', inAppBrowserbClose);
-	*/
-	
+
 	alert('end of ready');
     },
 
