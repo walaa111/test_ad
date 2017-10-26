@@ -10,43 +10,6 @@
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-	
-var app = {
-    
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-    },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-alert("hello");
-        this.receivedEvent('deviceready');
-	admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");
-	admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
-
-
-    
-    },
-
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        //console.log('Received Event: ' + id);
-    }
-};
-
-app.initialize();
 
 
  $(".test").click(function(){
@@ -68,7 +31,7 @@ $(this).css("display","none");
    <script type="text/javascript" src="cordova.js"></script>
 	
         <script type="text/javascript" src="js/index.js"></script>
-
+  <script type="text/javascript" src="js/admob.js"></script>
    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     
 </body>
