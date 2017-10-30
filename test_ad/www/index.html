@@ -1,176 +1,38 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="This is border lesson">
-    <link rel="stylesheet" type="text/css" href="contacts.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--5as blinternetexplorer -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--first mobile meta -->
-    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/taketnoor/www/css/bootstrap.min.css" />
+     <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/moslslat_appcss/bootstrap.min.css" />
     <!--<link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css"/>-->
-    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/taketnoor/www/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/taketnoor/www/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/taketnoor/www/css/hover-min.css" />
+    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/moslslat_app/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/moslslat_app/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="http://walaa.realdeal.com.eg/moslslat_app/css/hover-min.css" />
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-  $(".exit img").click(function(){
-        $.ajax({
-            type: 'get',
-            url: 'http://walaa.realdeal.com.eg/el5rog/www/',
-            success: function(response) {
-                // response = data which has been received and passed on to the 'success' function.
-                $('body').html(response);
-            }
-        });
-    });
+
+$(document).ready(function(){
     
-    
-      $(".taka img").click(function(){
-        $.ajax({
-            type: 'get',
-            url: 'http://walaa.realdeal.com.eg/taketnoor/www/',
-            success: function(response) {
-                // response = data which has been received and passed on to the 'success' function.
-                $('body').html(response);
-            }
-        });
-    });
-</script>
 
 
+        $("#div1").load("http://walaa.realdeal.com.eg/moslslat_app/index.html");
+        $(this).css("display","none");
 
-
-</head>
-
-<body>
-    <!--
-    <div class="loading">
-
-<div class="spinner">
-  <div class="cube1"></div>
-  <div class="cube2"></div>
-</div>
-
-      </div>
-      -->
-    <header role="banner" class="navbar  navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/header-mobile.png" />
-                <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="navbar-inverse side-collapse in">
-                <nav role="navigation" class="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li>
-                        
-                            <a href="index.html" class="hvr-pop">Home</a></li>
-                        <li><a href="#" class="hvr-pop">Tradefair</a></li>
-                        <li><a href="#" class="hvr-pop">Exhibitors</a></li>
-                        <li><a href="#" class="hvr-pop">Visitors</a></li>
-                        <li><a href="#" class="hvr-pop">News</a></li>
-                        <li><a href="#" class="hvr-pop">Contact Us</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!--content-->
-    <div class="container-fluid main">
-        <div class="row">
-            
-            <div id="div2"></div>
-            
-            
-            
-                   <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie exit">
-                  
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/3081374621414916152.png" />
-                    <h3>مسلسل عربى <img src="http://walaa.realdeal.com.eg/moslslat_app/http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                  
-                </div>
-            </div>
-            
-                <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie taka">
-                    
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/aa.jpg" />
-                    <h3>مسلسل عربى <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                    
-                </div>
-            </div>
-         
-            
-                <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie">
-                         <a href="">
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/3almeein.jpg" />
-                    <h3>مسلسل عربى <img src ="http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                         </a>
-                </div>
-            </div>
-
-
-
-                       <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie">
-                      <a href="">
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/540.jpg" />
-                    <h3>مسلسل عربى <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                      </a>
-                </div>
-            </div>
-                <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie">
-                      <a href="">
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/maxresdefault.jpg" />
-                    <h3>مسلسل عربى <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                      </a>
-                </div>
-            </div>
-
-
+   
         
-         
+  
+});  
 
-       <div class="col-xs-6 col-md-4 resent-grid ">
-            <div class="movie">
-               
-                    <img src="http://walaa.realdeal.com.eg/moslslat_app/pics/sabe3gar.jpg" />
-                    <h3>مسلسل عربى <img src="http://walaa.realdeal.com.eg/moslslat_app/http://walaa.realdeal.com.eg/moslslat_app/pics/film-roll.png"/> </h3>
-                 
-                </div>
-            </div>
-         
-        </div>
-    </div>
-    <!--end content-->
-    <!--foooter-->
 
-    <div class="footer">
 
-<div class="row">
-<div class="col-xs-12">
 
-copyright reserved for realdeal 2017.
-</div>
+</script>
+</head>
+<body>
 
-</div>
+<div id="div1" ></div>
 
-    </div>
-    <!--end footer-->
-    <script src="http://walaa.realdeal.com.eg/moslslat_app/javascript/jquery.js"></script>
-    <script src="http://walaa.realdeal.com.eg/moslslat_app/javascript/jquery-3.1.1.min.js"></script>
-    <script src="http://walaa.realdeal.com.eg/moslslat_app/javascript/default.js"></script>
+
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </body>
-
 </html>
